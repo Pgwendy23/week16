@@ -1,5 +1,5 @@
 pipeline{
-    agentZ{
+    agent {
         label 'ansible'
     }
     stages{
