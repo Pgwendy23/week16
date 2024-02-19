@@ -21,7 +21,7 @@ pipeline {
         }
         stage('upload artifact'){
             steps{
-                sh 'curl -uadmin:AP3BQnqyqrTXppzhTKCKKBhQepF -T  target/bio*.jar "http://ec2-18.234.253.81.compute-1.amazonaws.com:8081/artifactory/geoapp/"'
+                sh 'curl -uadmin:AP3BQnqyqrTXppzhTKCKKBhQepF -T  target/bio*.jar "http://18.234.253.81:8081/artifactory/geoapp/"'
             }
              
         }       
